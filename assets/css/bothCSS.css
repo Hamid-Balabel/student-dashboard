@@ -1,0 +1,73 @@
+body{
+  font-family: 'Muli', sans-serif !important;
+  
+}
+
+.input-label{
+  background-color:#ED5564;
+  color:#FFF;
+  padding:5px 7px;
+  margin-top:7px;
+  transition:0.3s
+}
+
+.input-label:hover{
+  box-shadow: 7px 7px 6px 3px rgba(84, 83, 87, 0.08);
+  cursor:pointer;
+  background-color:rgb(240, 114, 127);
+}
+  
+#file{
+  display:none;
+
+}
+.mess-arrived li{
+  transition:0.2s;
+}
+.mess-arrived li:hover{
+  cursor:pointer;
+  background-color:rgb(248, 248, 248);
+}
+
+.mailbox-attachments li .mailbox-attachment-size{
+  color:#86939e;
+}
+
+/* /////////////////////////////////////////////////////////// */
+.the-hold{
+  padding:25px;
+  margin:40px 0;
+  border-radius:7px;
+}
+
+.my-actions{
+  margin-bottom: 20px;
+}
+
+.selectize-input{
+  margin: 10px 0 2px 60px !important;
+  width:95%;
+}
+.selectize-dropdown{
+  margin-left: 60px !important;
+}
+
+.select2-selection{
+  margin-left: 60px !important;
+  width:88%;
+}
+
+.sselect2-dropdown{
+  margin-left: 50px !important;
+  width:88% !important;
+}
+
+
+.mess-arrived>li{
+  position: relative;
+}
+.remove-message{
+  position: absolute;
+  top:50%;
+  right:3%;
+}

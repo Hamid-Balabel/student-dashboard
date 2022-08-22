@@ -1,0 +1,122 @@
+ body{
+  font-family: 'Muli', sans-serif !important;
+
+}
+@font-face {
+  font-family: lobster;
+  src: url("../font/Lobster/Lobster-Regular.ttf");
+}
+
+/* .content {
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+   */
+  /* Cards styling */
+  
+  
+  /* Card header */
+  .card .the-header {
+    background-color: transparent !important;
+    border-bottom: 1px solid #ebedf2 !important;
+    display: flex !important;
+    color:#FFF;
+  }
+  
+  /* Card header image */
+  .card .card-header img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Card header title */
+  .card .card-header .card-title {
+    color: #575962;
+    font-size: 18px;
+    padding-top: 3px;
+  }
+  
+
+  
+
+  
+
+
+.pins-color{
+  background-image: linear-gradient(-90deg,red,blue)
+}
+
+.Mheader{
+  align-items:center;
+  
+}
+
+.overlay a{
+  min-width: 155px !important;
+  padding:13px;
+}
+
+.overlay a>i{
+    padding-right:7px;
+    font-size:17px;
+}
+
+.card.card-cascade.wider {
+  background-color: transparent;
+}
+.card.card-cascade.wider {
+  box-shadow: none;
+}
+.card {
+  font-weight: 400;
+}
+.card.card-cascade.wider .view {
+  z-index: 2;
+}
+.card.card-cascade .view {
+  border-radius: .25rem;
+}
+.card.card-cascade .view {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+}
+.card.card-cascade.wider .card-body {
+  margin-left: 4%;
+  margin-right: 4%;
+  background: #fff;
+  z-index: 1;
+  border-radius: 0 0 .25rem .25rem;
+}
+.card.card-cascade.wider .card-body {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+}
+.card.card-cascade .card-body {
+  padding-top: 1.8rem;
+}
+.card .card-body {
+  position: relative;
+}
+.card-body {
+  -webkit-box-flex: 1;
+}
+.card {
+  -webkit-box-direction: normal;
+}
+@media (min-width: 576px) {
+  .card-deck {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+  }
+}
+@media (min-width: 576px) {
+  .card-deck {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+  }
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from xvelopers.com/demos/html/paper-panel/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Mar 2020 20:39:09 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/img/basic/favicon.ico" type="image/x-icon">
+    <title>Home</title>
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="assets/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <style>
+        .ex-result{
+        display:none;
+        }
+ 
+        .loader {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #F5F8FA;
+            z-index: 9998;
+            text-align: center;
+        }
+
+        .plane-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+    </style>
+    <!-- Js -->
+    <!--
+    --- Head Part - Use Jquery anywhere at page.
+    --- http://writing.colin-gourlay.com/safely-using-ready-before-including-jquery/
+    -->
+    <script>
+        ( function ( w, d, u ) {
+            w.readyQ = [];
+            w.bindReadyQ = [];
+
+            function p( x, y ) {
+                if ( x == "ready" ) {
+                    w.bindReadyQ.push( y );
+                } else {
+                    w.readyQ.push( x );
+                }
+            };
+            var a = {
+                ready: p,
+                bind: p
+            };
+            w.$ = w.jQuery = function ( f ) {
+                if ( f === d || f === u ) {
+                    return a
+                } else {
+                    p( f )
+                }
+            }
+        } )( window, document )
+    </script>
+</head>
+
+<body >
+    <div class="card " style="height:inherit">
+        
+            
+        
+        
+        <div class="row">
+            <div class="col-md-10 offset-md-1 ">
+                <h3 class="pt-4 pl-3 " style="font-weight: 500;">first question bank:</h3>
+                
+                <div class="question pt-4 pl-3">
+                    <h3 style="font-weight: 400;"> <i class="far fa-question-circle  s-22 pr-2"></i>this is the first question in the
+                        question bank?</h3>
+                    
+                    <h5 class="mt-4 mb-4 pl-4 ">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, commodi possimus. Praesentium, officiis ipsum
+                        natus accusantium tempora voluptate ratione vero veniam itaque velit. Cupiditate dolorem eos non reiciendis fugit.
+                        Aliquid.
+                    </h5>
+                </div>
+                
+                <div class="question pt-4 pl-3">
+                    <h3 style="font-weight: 400;"> <i class="far fa-question-circle  s-22 pr-2"></i>this is the first question in the
+                        question bank?</h3>
+                    
+                    <h5 class="mt-4 mb-4 pl-4">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, commodi possimus. Praesentium, officiis ipsum
+                        natus accusantium tempora voluptate ratione vero veniam itaque velit. Cupiditate dolorem eos non reiciendis fugit.
+                        Aliquid.
+                    </h5>
+                </div>
+                
+                <div class="question pt-4 pl-3">
+                    <h3 style="font-weight: 400;"> <i class="far fa-question-circle  s-22 pr-2"></i>this is the first question in the
+                        question bank?</h3>
+                    
+                    <h5 class="mt-4 mb-4 pl-4">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, commodi possimus. Praesentium, officiis ipsum
+                        natus accusantium tempora voluptate ratione vero veniam itaque velit. Cupiditate dolorem eos non reiciendis fugit.
+                        Aliquid.
+                    </h5>
+                </div>
+
+                <div class="question pt-4 pl-3">
+                    <h3 style="font-weight: 400;"> <i class="far fa-question-circle  s-22 pr-2"></i>this is the first question in the
+                        question bank?</h3>
+                    
+                    <h5 class="mt-4 mb-4 pl-4">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, commodi possimus. Praesentium, officiis ipsum
+                        natus accusantium tempora voluptate ratione vero veniam itaque velit. Cupiditate dolorem eos non reiciendis fugit.
+                        Aliquid.
+                    </h5>
+                </div>
+
+                
+                
+        
+        
+                
+                <div class="text-center">
+                    <a href="https://selectpdf.com/save-as-pdf/"><img src="https://selectpdf.com/buttons/save-as-pdf1.gif"/></a>
+                </div>
+                
+                            
+
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!--
+--- Footer Part - Use Jquery anywhere at page.
+--- http://writing.colin-gourlay.com/safely-using-ready-before-including-jquery/
+-->
+    <script>
+        ( function ( $, d ) {
+            $.each( readyQ,
+                function ( i, f ) {
+                    $( f )
+                } );
+            $.each( bindReadyQ,
+                function ( i, f ) {
+                    $( d ).bind( "ready", f )
+                } )
+        } )( jQuery, document )
+    </script>
+</body>
+
+<!-- Mirrored from xvelopers.com/demos/html/paper-panel/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Mar 2020 20:39:40 GMT -->
+
+</html>

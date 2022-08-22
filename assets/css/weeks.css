@@ -1,0 +1,18 @@
+.the-master {
+    text-decoration: none;
+    cursor:pointer;
+    color:#86939E;
+    
+}
+.week-item{
+    box-shadow: 0px 0px 4px #d1cccc;
+    color:#86939E;
+    transition: .1s ease-in-out;
+    
+}
+.week-item:hover{
+    box-shadow: 1px 1px 6px #aaaaaa;
+}
+.marg {
+    margin-top: 40px;
+}
